@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExtendType.OfDateTime.Manipulation
+namespace ExtendType.OfDateTime.Day
 {
 	public static class Extensions
 	{
