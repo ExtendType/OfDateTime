@@ -108,7 +108,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day\Extensions.cs" />
+    <Compile Include="Difference\Extensions.cs" />
+    <Compile Include="Periods\Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\Extensions.cs" />
   </ItemGroup>

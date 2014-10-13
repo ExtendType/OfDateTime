@@ -3,7 +3,7 @@
 	<metadata>
 		<language>en-us</language>
 		<id>ExtendType.OfDateTime</id>
-		<version>1.0.3</version>
+		<version>1.2.1</version>
 		<authors>Scott Wood</authors>
 		<owners>AbstractLabs</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,7 +14,11 @@
 		<copyright>AbstractLabs 2014</copyright>
 		<tags>fluent datetime utility extensions</tags>
 		<releaseNotes>
-
+			1.2.1 - Added time to ending and starting periods
+			1.2.0 - Breaking change Renamed "Days" namespace to periods completed period calculation extensions
+			1.1.1 - Fixed rounding direction on difference extension methods protected from div by zero
+			1.1.0 - Fixed naming conventions on difference extension methods
+			1.0.4 - Added date difference calculations
 		</releaseNotes>
 	</metadata>
 	<files>
