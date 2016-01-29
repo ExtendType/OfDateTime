@@ -12,13 +12,25 @@ namespace ExtendType.OfDateTime.Validation
 		{
 			return instance == DateTime.MinValue;
 		}
+		public static bool IsNotEmpty(this DateTime instance)
+		{
+			return instance != DateTime.MinValue;
+		}
 		public static bool IsMin(this DateTime instance)
 		{
 			return instance == DateTime.MinValue;
 		}
+		public static bool IsNotMin(this DateTime instance)
+		{
+			return instance != DateTime.MinValue;
+		}
 		public static bool IsMax(this DateTime instance)
 		{
-			return instance == DateTime.MinValue;
+			return instance == DateTime.MaxValue;
+		}
+		public static bool IsNotMax(this DateTime instance)
+		{
+			return instance != DateTime.MaxValue;
 		}
 	}
 }

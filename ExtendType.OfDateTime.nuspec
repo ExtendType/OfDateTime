@@ -3,7 +3,7 @@
 	<metadata>
 		<language>en-us</language>
 		<id>ExtendType.OfDateTime</id>
-		<version>1.2.1</version>
+		<version>1.2.5</version>
 		<authors>Scott Wood</authors>
 		<owners>AbstractLabs</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,6 +14,10 @@
 		<copyright>AbstractLabs 2014</copyright>
 		<tags>fluent datetime utility extensions</tags>
 		<releaseNotes>
+			1.2.5 - Added additional comments, Added methods to validation, fixed IsMax bug in validation
+			1.2.4 - Bugfix start of week end of week calculation also added week start option
+			1.2.3 - Bugfix start of week end of week calculation
+			1.2.2 - Added manipulation extensions
 			1.2.1 - Added time to ending and starting periods
 			1.2.0 - Breaking change Renamed "Days" namespace to periods completed period calculation extensions
 			1.1.1 - Fixed rounding direction on difference extension methods protected from div by zero
